@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    // Method to start the timer, creating
+    // Method to start the timer
     private void startTimer() {
         // creates a object of a 'TimerTask', used to create a task that is to be repeated at fixed rate
         timerTask = new TimerTask() {
